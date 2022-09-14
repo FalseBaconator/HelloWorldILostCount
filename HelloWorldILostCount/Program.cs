@@ -11,7 +11,9 @@ namespace HelloWorldILostCount
         static void Main(string[] args)
         {
             Console.WriteLine("Hello There");
-            Console.ReadKey(false);
+            Console.ReadKey(true);
+            Console.WriteLine("General Kenobi");
+            Console.ReadKey(true);
         }
     }
 }
